@@ -132,7 +132,7 @@ for pt in pts:
         old_port = saved_port(fp)
     
     # get random custom new port
-    new_port = random_port(fp, 80 if pt == "default" else 443, 65536, 1)
+    new_port = random_port(fp, 800 if pt == "default" else 4430, 65536, 1)
 
     # file or directory that need to change custom port
     # this is my directory that need to change port in Apache24
