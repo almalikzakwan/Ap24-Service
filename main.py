@@ -136,7 +136,7 @@ for pt in pts:
 
     # file or directory that need to change custom port
     # this is my directory that need to change port in Apache24
-    # put your .conf here 
+    # put your .conf here, if you add new project, just add their apache.conf here. 
     conf_files = [
         "D:/Project/Apache/Apache24/conf/httpd.conf",
         "D:/Project/Apache/Apache24/conf/extra/httpd-ssl.conf",
