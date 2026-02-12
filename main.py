@@ -96,14 +96,6 @@ def port_forwarding(port, listenport):
     except Exception as e:
         print(f"An unexcepted error occured: {e}")
 
-def check_folder_existance(path):
-    """ Validate folder path """
-    if not os.path.exists(path):
-        print(f"[WARN] Folder does not found")
-        return False
-    else:
-        return True
-
 def init():
     """ 
     create storage folder and init file with 
@@ -144,6 +136,7 @@ for pt in pts:
 
     # file or directory that need to change custom port
     # this is my directory that need to change port in Apache24
+    # put your .conf here 
     conf_files = [
         "D:/Project/Apache/Apache24/conf/httpd.conf",
         "D:/Project/Apache/Apache24/conf/extra/httpd-ssl.conf",
