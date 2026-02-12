@@ -39,9 +39,9 @@ def replace_string_in_file(file_path, old_str, new_str):
         if updated_content != content:
             with open(file_path, 'w', encoding='utf-8') as file:
                 file.write(updated_content)
-            print(f"Replaced all '{old_str}' with '{new_str}'.")
+            print(f"Replaced all '{old_str}' with '{new_str}' in {file_path}.")
         else:
-            print(f"No '{old_str}' found.")
+            print(f"No '{old_str}' found in {file_path}.")
 
         return True
 
