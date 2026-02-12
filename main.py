@@ -167,6 +167,4 @@ for pt in pts:
     #port forwarding default and ssl into new custom
     port_forwarding(new_port, 80 if pt == "default" else 443)
 
-# dfp = "storage/recent.default.port"
-# dop = saved_port(dfp) 
 
