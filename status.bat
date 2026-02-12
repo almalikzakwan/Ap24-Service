@@ -1,12 +1,12 @@
 @echo off  
 
 REM read value from recent.default.port file
-for /f "usebackq delims=" %%A in ("recent.default.port") do (
+for /f "usebackq delims=" %%A in ("storage/recent.default.port") do (
     echo [INFO] Apache2D running in DEFAULT port : %%A    
 )
 
 REM read value from recent.ssl.port file
-for /f "usebackq delims=" %%B in ("recent.ssl.port") do (
+for /f "usebackq delims=" %%B in ("storage/recent.ssl.port") do (
     echo [INFO] Apache2D running in SSL port : %%B 
 )
 
