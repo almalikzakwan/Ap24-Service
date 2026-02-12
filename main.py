@@ -115,7 +115,7 @@ def init():
 
 # in init, create storage folder if not exists
 init()
-# i will configure random default and ssl port using exmaple below
+# i will configure random default and ssl port using example below
 pts = ["default","ssl"]
 for pt in pts:
     # make file path string
