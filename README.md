@@ -1,4 +1,4 @@
-# Ap24-Service Manager  
+# AP24-Service Manager  
 
 ## Description  
 Ap24-Service manager include start, stop, restart and stop Apache24 service.  
